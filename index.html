@@ -15,11 +15,17 @@
       .hero .title {
         font-size: 5rem;
         font-weight: 900;
+        color: white;
+      }
+
+      .hero.is-gradient {
+        background: linear-gradient(to bottom, black 66%, #1d1d1d 100%);
+        color: white;
       }
 
       @media screen and (max-width: 1323px) {
         .hero .title {
-            font-size: 3rem;
+          font-size: 3rem;
         }
       }
 
@@ -28,13 +34,13 @@
           height: 50vh;
         }
         .hero .title {
-            font-size: 3rem;
+          font-size: 3rem;
         }
       }
     </style>
   </head>
   <body>
-    <section class="hero is-black is-fullheight-with-navbar">
+    <section class="hero is-gradient is-fullheight-with-navbar">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
@@ -83,7 +89,6 @@
             </p>
             <div>
               <div class="mt-6">
-
                 <div class="mb-4">
                   <strong>MEDIUM</strong>
                   Hinoki wood with lacquer on cloth, pigment, rock crystal,
