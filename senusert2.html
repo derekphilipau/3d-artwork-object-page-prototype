@@ -14,9 +14,13 @@
         margin-bottom: 1em;
       }
 
-      .hero .title {
+      .hero-title {
         font-size: 5rem;
         font-weight: 900;
+      }
+
+      .my-hero {
+        height: 70vh;
       }
 
       .hero-bg-image {
@@ -26,25 +30,19 @@
       }
 
       @media screen and (max-width: 1323px) {
-        .hero .title {
-          font-size: 3rem;
-        }
-      }
-
-      @media screen and (max-width: 760px) {
-        .hero .title {
+        .hero-title {
           font-size: 3rem;
         }
       }
     </style>
   </head>
   <body>
-    <section class="hero is-fullheight-with-navbar">
+    <div class="container hero-title mb-6 mt-6">
+      <h3 class="is-size-3">Brooklyn Museum</h3>
+      <h1 class="title hero-title">King Senwosret III</h1>
+    </div>
+    <section class="hero my-hero">
       <div class="hero-body hero-bg-image">
-        <div class="container">
-          <h3 class="is-size-3">Brooklyn Museum</h3>
-          <h1 class="title">King Senwosret III</h1>
-        </div>
       </div>
     </section>
 
